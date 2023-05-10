@@ -16,33 +16,11 @@
 
 }
 
-
 main{
     width: 940px;
-    height: 720px;
+    display: flex;
     margin-bottom: 50px;
     margin-left: 80px;
-}
-
-
-.home{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-
-.inFlex{
-    flex: 1;
-    min-width: 400px;
-    
-}
-
-.inFlex:first-child{
-    flex: 2;
-   
-    padding: 25px;
-    margin: 25px;
-    margin-bottom: 0px;
 }
 
 .textArea{
@@ -61,7 +39,7 @@ main{
 
 .mensaje{
     width: auto;
-    height: 400px;
+    height: 50%;
     background: #FFFFFF;
     background-image: url("images/Muneco.png");
     background-repeat: no-repeat;
@@ -175,7 +153,7 @@ footer{
 
 /* css mobile devices */
 
-@media screen and (max-width:1279px){
+@media screen and (max-width:900px){
 
     *{
     
@@ -198,9 +176,6 @@ footer{
     }
 
     main{
-        width: auto;
-    }
-    .home{
         width: auto;
         display: block;
     }
@@ -225,7 +200,7 @@ footer{
 
     .mensaje{
         width: 80%;
-        height: 400px;
+        height: 20%;
         background-image: none;
         margin-left: auto;
         margin-top: auto;
@@ -311,7 +286,7 @@ footer{
 
 }
 
-@media screen and (max-width:900px){
+@media screen and (max-width:650px){
     *{
         font-weight: 400;
         font-size: 15px;

@@ -5,6 +5,7 @@
     font-weight: 400;
     font-size: 30px;
     line-height: 150%;
+    
 }
 
 .logo{
@@ -20,8 +21,18 @@ main{
     width: 940px;
     display: flex;
     margin-bottom: 50px;
-    margin-left: 80px;
+    
+    
 }
+
+.content{
+    width: 80%;
+    margin-left: auto;
+    display: flex;
+}
+
+
+
 
 .textArea{
     padding-top: 30px;
@@ -177,9 +188,14 @@ footer{
 
     main{
         width: auto;
-        display: block;
+       
     }
 
+    .content{
+        width: 80%;
+        margin-left: auto;
+        display: grid;
+    }
 
 
 
@@ -295,6 +311,30 @@ footer{
 
 
 
+    .botones{
+        display: grid;
+        margin-top: 18px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        
+    
+    }
+
+    .btnEncriptar{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 20px;
+
+
+    }
+
+    .btnDesencriptar{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 20px;
+
+    }
 
 
 

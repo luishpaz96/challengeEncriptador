@@ -23,35 +23,39 @@
 
 <main>
 
-<section>
-    <textarea class="textArea" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
-
-    <div>
-        <h6 class="informacion">Solo letras minúsculas y sin acentos</h6>
-    </div>
-
-    <div class="botones">
-        <button class="btnEncriptar" onclick="btnEncriptar()">Encriptar</button>
-        <button class="btnDesencriptar" onclick="btnDesencriptar()">Desencriptar</button>
-    </div>
-
+<section class="content">
+    <section class="inFlex">
+        <textarea class="textArea" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+    
+        <div>
+            <h6 class="informacion">Solo letras minúsculas y sin acentos</h6>
+        </div>
+    
+        <div class="botones">
+            <button class="btnEncriptar" onclick="btnEncriptar()">Encriptar</button>
+            <button class="btnDesencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+        </div>
+    
+    </section>
+    
+    
+    <section class="inFlex">
+        
+        <div class="copyLink">
+            <textarea class="mensaje" name="" cols="20" rows="10"></textarea>
+    
+            
+            <button class="copiar" onclick="copy()">Copiar</button>
+            
+            
+        
+        </div>
+        
+    
+    </section>
 </section>
 
 
-<section>
-    
-    <div class="copyLink">
-        <textarea class="mensaje" name="" cols="20" rows="10"></textarea>
-
-        
-        <button class="copiar" onclick="copy()">Copiar</button>
-        
-        
-    
-    </div>
-    
-
-</section>
 
 
 

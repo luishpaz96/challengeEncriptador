@@ -87,7 +87,7 @@ main{
 }
 
 .btnEncriptar:hover{
-    box-shadow: 5px 5px 30px 5px black;
+    border: 3px solid black;
     transform: scale(1.05); 
 }
 
@@ -103,7 +103,7 @@ main{
 }
 
 .btnDesencriptar:hover{
-    box-shadow: 5px 5px 30px 5px black;
+    border: 3px solid black;
     transform: scale(1.05); 
 }
 
@@ -121,7 +121,8 @@ main{
 
 .copiar:hover{
 
-    transform: scale(1.10); 
+    transform: scale(1.10);
+    border: 3px solid black;
 }
 
 .informacion{

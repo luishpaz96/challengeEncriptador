@@ -60,7 +60,7 @@ main{
 
 .mensaje{
     width: auto;
-    height: 50%;
+    height: 400px;
     background: #FFFFFF;
     background-image: url("images/Muneco.png");
     background-repeat: no-repeat;
@@ -174,7 +174,7 @@ footer{
 
 /* css mobile devices */
 
-@media screen and (max-width:1200px){
+@media screen and (max-width:1279px){
 
     *{
     
@@ -310,7 +310,7 @@ footer{
 
 }
 
-@media screen and (max-width:650px){
+@media screen and (max-width:900px){
     *{
         font-weight: 400;
         font-size: 15px;

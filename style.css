@@ -16,11 +16,32 @@
 
 }
 
+
 main{
     width: 940px;
-    display: flex;
     margin-bottom: 50px;
     margin-left: 80px;
+}
+
+
+.home{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.inFlex{
+    flex: 1;
+    min-width: 400px;
+    
+}
+
+.inFlex:first-child{
+    flex: 2;
+   
+    padding: 25px;
+    margin: 25px;
+    margin-bottom: 0px;
 }
 
 .textArea{
@@ -153,7 +174,7 @@ footer{
 
 /* css mobile devices */
 
-@media screen and (max-width:900px){
+@media screen and (max-width:1200px){
 
     *{
     
@@ -176,6 +197,9 @@ footer{
     }
 
     main{
+        width: auto;
+    }
+    .home{
         width: auto;
         display: block;
     }
@@ -200,7 +224,7 @@ footer{
 
     .mensaje{
         width: 80%;
-        height: 20%;
+        height: 400px;
         background-image: none;
         margin-left: auto;
         margin-top: auto;

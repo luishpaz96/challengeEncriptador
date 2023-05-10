@@ -18,7 +18,7 @@
 }
 
 main{
-    width: 940px;
+    width: 1280px;
     display: flex;
     margin-bottom: 50px;
     
@@ -28,6 +28,7 @@ main{
 .content{
     width: 80%;
     margin-left: auto;
+    margin-right: auto;
     display: flex;
 }
 
@@ -50,7 +51,7 @@ main{
 
 .mensaje{
     width: auto;
-    height: 50%;
+    height: 400px;
     background: #FFFFFF;
     background-image: url("images/Muneco.png");
     background-repeat: no-repeat;
@@ -302,7 +303,7 @@ footer{
 
 }
 
-@media screen and (max-width:650px){
+@media screen and (max-width:900px){
     *{
         font-weight: 400;
         font-size: 15px;
